@@ -2,7 +2,7 @@
   "expo": {
     "name": "mGurman",
     "slug": "mGurman",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -19,11 +19,11 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "ru.mgurman.app",
-      "buildNumber": "1.0.1"
+      "buildNumber": "2.0.3"
     },
     "android": {
       "package": "ru.mgurman.app",
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#e31e24"

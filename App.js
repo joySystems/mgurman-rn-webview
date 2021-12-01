@@ -44,11 +44,12 @@ this.setState({
       //document.body.style.backgroundColor = 'blue';
       document.querySelector('.topic-block').style.display = "none";
       document.querySelector('.section-footer').style.display = "none";
+      document.querySelector('.header-top').style.display = "none";
       true;
     `;
     setTimeout(() => {
       this.webref.injectJavaScript(run);
-    }, 1000);
+    }, 0);
 
     return (
       <SafeAreaView style={styles.container}>
@@ -134,7 +135,7 @@ this.setState({
       const hideBlocks5 = `
       
       document.querySelector('.section-footer').style.display = "none";
-      
+      document.querySelector('.header-top').style.display = "none";
       document.querySelector('.category-description').style.display = "none";
       true;
     `;
